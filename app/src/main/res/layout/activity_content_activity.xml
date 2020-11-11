@@ -1,0 +1,498 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/DataStructureCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:backgroundTint="@color/CardViewColor"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="17dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex" />
+
+                <TextView
+                    android:id="@+id/txtIndex0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/montserrat"
+                    android:text="0. Introduction to Data Structure"
+                    android:textAlignment="center"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/TimeCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:backgroundTint="@color/CardViewColor"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="17dp">
+
+                <ImageView
+                    android:id="@+id/index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex" />
+
+                <TextView
+                    android:id="@+id/txtIndex1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:id="@+id/TimeComplexityLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_timecomplexity"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-15dp"/>
+
+                <TextView
+                    android:id="@+id/txtTimeComplexity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="37dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="1. Time Complexity"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/SpaceCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="17dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex" />
+                <TextView
+                    android:id="@+id/txtIndex2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:id="@+id/SpaceHeadLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_memorycomplexity"
+                    android:layout_marginTop="-13dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/txtSpaceHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="2. Space Complexity"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ArrayCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="17dp" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex"/>
+                <TextView
+                    android:id="@+id/txtIndex3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:id="@+id/ArraLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_arraylogo1"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="3. Arrays"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/StacksCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="25dp" >
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex"/>
+                <TextView
+                    android:id="@+id/txtIndex4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_stacks"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-4dp"
+                    android:layout_marginTop="43dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="4. Stacks"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/QueuesCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="17dp" >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex"/>
+                <TextView
+                    android:id="@+id/txtIndex5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_queuelogo"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="5. Queues"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HashTableCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="17dp" >
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex"/>
+                <TextView
+                    android:id="@+id/txtIndex6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_hashtable"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="6. Hashing"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/LinkedListCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="17dp" >
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex"/>
+                <TextView
+                    android:id="@+id/txtIndex7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_linkedlist"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="7. Linked List"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/StringCardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="17dp" >
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex"/>
+                <TextView
+                    android:id="@+id/txtIndex12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_strings"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="8. String"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/TreeCardView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="17dp" >
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex" />
+                <TextView
+                    android:id="@+id/txtIndex8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/applogo"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="52dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="9. Trees"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/GraphCardView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/CardViewColor"
+                app:cardCornerRadius="17dp"
+                android:layout_marginBottom="13dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_storeindex" />
+                <TextView
+                    android:id="@+id/txtIndex9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textColor="@color/colowhite"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_graph"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginTop="41dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="10. Graph"
+                    android:textColor="@color/colowhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

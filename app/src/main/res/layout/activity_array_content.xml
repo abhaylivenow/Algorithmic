@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Algorithmic.ArrayContent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HeadText"
+                android:fontFamily="@font/montserrat"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/Headtext"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abhay"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/Para0"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1D Array"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/SubHead1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paragraph 1"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/Para1"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_arrayimg1"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paragraph2"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/Para2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size of Array:"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/SubHead2"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Para3Text"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                android:text="Pararaph3"
+                android:textSize="17sp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indexing in Array:"
+                android:id="@+id/SubHead3"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Para4Text"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Pararaph4"
+                android:textSize="17sp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrayimg2"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advantages of Using Array:"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/SubHead4"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Para5Text"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                android:text="Pararaph5"
+                android:textSize="17sp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disadvanyages of Using Array:"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/SubHead5"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Para6Text"
+                android:layout_marginTop="10dp"
+                android:text="Pararaph6"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Initializing Array : "
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/SubHead6"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/ArrayInC"
+                android:layout_marginTop="10dp"
+                android:text="Array in C and C++ language : "
+                android:textSize="17sp"
+                android:layout_marginLeft="7dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/NavyBlue">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/Layout1Text"
+                    android:fontFamily="@font/ubuntu_mono"
+                    android:textColor="@color/colowhite"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ArrayInJava"
+                android:layout_marginTop="10dp"
+                android:text="Array in Java language : "
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:layout_marginLeft="7dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/NavyBlue">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/ubuntu_mono"
+                    android:id="@+id/Layout2Text"
+                    android:textColor="@color/colowhite"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ArrayInPython"
+                android:layout_marginTop="10dp"
+                android:text="Array in Python language : "
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:layout_marginLeft="7dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/NavyBlue">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/ubuntu_mono"
+                    android:id="@+id/Layout3Text"
+                    android:textColor="@color/colowhite"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2D Array"
+                android:layout_marginLeft="7dp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:id="@+id/TwoDArrayHead"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paragraph 1"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/Para1_2D"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/TwoDArrayGeneral"
+                android:background="@color/NavyBlue"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/Layout4Text"
+                    android:fontFamily="@font/ubuntu_mono"
+                    android:textColor="@color/colowhite"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size of 2D Array"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/TwoDArraySizeHead"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paragraph 2"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/Para2_2D"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More About 2D Array: "
+                android:fontFamily="@font/montserrat"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/TwoDArrayMoreeHead"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paragraph 3"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/Para3_2D"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrayimg3"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Initializing 2D Array: "
+                android:fontFamily="@font/montserrat"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/TwoDArrayInitializeHead"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/NavyBlue"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:fontFamily="@font/ubuntu_mono"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/Layout5Text"
+                    android:text="Initialzing 2D Array"
+                    android:textColor="@color/colowhite"/>
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="28dp"
+                    android:layout_marginBottom="35dp"
+                    android:text="Next" />
+
+                <Button
+                    android:id="@+id/btnPrev"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_marginBottom="33dp"
+                    android:text="Previous" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

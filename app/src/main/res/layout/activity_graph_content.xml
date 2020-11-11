@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Algorithmic.GraphContent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. Graph"
+                android:id="@+id/GraphHead"
+                android:fontFamily="@font/montserrat"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph1"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para1"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_graphimg1"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Paragraph2"
+                android:textSize="17sp"
+                android:id="@+id/Para2"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Graph Data Structure:"
+                android:fontFamily="@font/montserrat"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph3"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para3"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_graphimg2"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Paragraph4"
+                android:textSize="17sp"
+                android:id="@+id/Para4"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Adjacency Matrix:"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph5"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para5"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_grapgimg3"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Adjacency List:"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph6"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para6"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_graphimg4"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Implementing Graph Using Dynamic Array:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/changeImage"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_graphcpp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Traversals in Graph"
+                android:fontFamily="@font/montserrat"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="DFS(Depth First Search):"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph7"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para7"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Algorithm for DFS:"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="480dp"
+                android:background="@color/NavyBlue"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Code1"
+                    android:layout_marginLeft="13dp"
+                    android:id="@+id/Layout1Text"
+                    android:fontFamily="@font/ubuntu_mono"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:textColor="@color/colowhite">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BFS(Breadth First Search):"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph8"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para8"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Algorithm for BFS:"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@color/NavyBlue"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Code2"
+                    android:id="@+id/Layout2Text"
+                    android:fontFamily="@font/ubuntu_mono"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="13dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/colowhite">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="119dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginEnd="119dp"
+                    android:layout_marginBottom="31dp"
+                    android:text="Previous" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

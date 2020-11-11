@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Algorithmic.QueueContent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Queue"
+                android:fontFamily="@font/montserrat"
+                android:id="@+id/QueueHead"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph1"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para1"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_queue"
+                android:fontFamily="@font/montserrat"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Operations In Queue:"
+                android:fontFamily="@font/montserrat"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:id="@+id/OperationHead"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Enqueue"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/EnqeueHead"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph3"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para2"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:src="@drawable/enqueuegif"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Dequeue"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/DeqeueHead"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Paragraph3"
+                android:fontFamily="@font/montserrat"
+                android:textSize="17sp"
+                android:id="@+id/Para3"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:src="@drawable/dequeuqgif"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Implementation of Queue:"
+                android:fontFamily="@font/montserrat"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:id="@+id/ImplementationHead"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/changeImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_queuec"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="28dp"
+                    android:layout_marginBottom="35dp"
+                    android:text="Next" />
+
+                <Button
+                    android:id="@+id/btnPrev"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_marginBottom="33dp"
+                    android:text="Previous" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

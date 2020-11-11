@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dsaapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.Algorithmic.DataStrcutureContent"
+            android:label="Why Data Structure"></activity>
+        <activity
+            android:name="com.example.Algorithmic.HashingContent"
+            android:label="Hashing" />
+        <activity
+            android:name="com.example.Algorithmic.SpaceContent"
+            android:label="Memory Complexity" />
+        <activity
+            android:name="com.example.Algorithmic.GraphContent"
+            android:label="Graph" />
+        <activity
+            android:name="com.example.Algorithmic.TreeContent"
+            android:label="Tree" />
+        <activity
+            android:name="com.example.Algorithmic.StringContent"
+            android:label="String" />
+        <activity
+            android:name="com.example.Algorithmic.LinkedListContent"
+            android:label="Linked List" />
+        <activity
+            android:name="com.example.Algorithmic.QueueContent"
+            android:label="Queue" />
+        <activity
+            android:name="com.example.Algorithmic.StackContent"
+            android:label="Stack" />
+        <activity
+            android:name="com.example.Algorithmic.ArrayContent"
+            android:label="Array" />
+        <activity
+            android:name="com.example.Algorithmic.TimeComplexityMain"
+            android:label="Time Complexity" />
+        <activity android:name="com.example.Algorithmic.content_activity" />
+        <activity android:name="com.example.Algorithmic.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
